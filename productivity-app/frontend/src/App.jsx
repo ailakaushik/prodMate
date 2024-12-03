@@ -6,7 +6,7 @@ import {useState} from "react";
 
 function App() {
 
-  const [showSettings, setShowSettings] = useState(true);
+  const [showSettings, setShowSettings] = useState(false);
 
   return (
     <>

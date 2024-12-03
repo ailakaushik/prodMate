@@ -6,14 +6,8 @@ function Settings()
         <div style={{textAlign:'left'}}>
             <h2>Settings:</h2>
             <label>Work Minutes:</label>
-            <Slider />
-<Slider defaultValue={3} />
-<Slider value={sliderValue} onChange={sliderOnChange} />
-<Slider min={0} max={10} />
-<Slider vertical />
-<Slider disabled />
-<Slider step={10} />
-<Slider size="small" />
+            <ReactSlider className={'slider'} thumbClassName={'thumb'} trackClassName={'track'} value={45} min={1} max={120}/>
+            <br />
             <label>Break Minutes:</label>
         </div>
     );
