@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@material/circular-progress": "^14.0.0",
-    "react-circular-progressbar": "^2.1.0"
-  }
-}
