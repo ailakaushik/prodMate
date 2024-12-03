@@ -1,6 +1,5 @@
-import { useState } from 'react'
 import './App.css'
-import Timer from './Timer';
+import Timer from './components/Timer';
 
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
         <Timer />
      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
