@@ -1,7 +1,7 @@
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import "../App.css";
-import playButton from "./playButton.jsx"
+import PlayButton from './PlayButton';
 
 const red = '#FF0032';
 const green = '#4AEC8C'; 
@@ -13,10 +13,6 @@ const white = '#FFFFFD'
 // .Pomodoro-Timer-3-hex { color: #FF0032; } red
 // .Pomodoro-Timer-4-hex { color: #7D7D7A; } light grey
 // .Pomodoro-Timer-5-hex { color: #525252; } dark grey
-
-
-
-
 function Timer() {
   return (
     <>
@@ -25,10 +21,10 @@ function Timer() {
         <CircularProgressbar value={50} text={'50%'} styles={buildStyles({
             textColor:'#fff', 
             pathColor:red, 
-            trailColor:white,})} />;
+            trailColor:white,})} />
 
             <div>
-                <playButton />
+                <PlayButton />
             </div>
       </div>
     </>

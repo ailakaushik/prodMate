@@ -14,9 +14,5 @@
     "cors": "^2.8.5",
     "express": "^4.21.1",
     "mongoose": "^8.8.3"
-  ,"dependencies": {
-    "@material/circular-progress": "^14.0.0",
-    "react-circular-progressbar": "^2.1.0"
-  }
 }
 }
